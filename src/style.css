@@ -1,3 +1,14 @@
 .navbar-nav{
     margin-left: auto;
 }
+.cards{
+    display: inline-block;
+}
+.desktop1{
+    display:inline-block;
+    
+}
+.desktop{
+    display:inline-block;
+    
+}

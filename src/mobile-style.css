@@ -1,0 +1,60 @@
+@media only screen and (max-width:768px) {
+    .navbar-brand {
+        padding-left: 1rem;
+    }
+
+    .panel {
+        position: inherit;
+        width: initial;
+        height: initial;
+    }
+
+    .cover {
+        background-position: -25vmin -10vmin;
+    }
+
+    .rect {
+        width: 10rem;
+        height: 8rem;
+    }
+
+    .rect h1 {
+        font-size: 2rem;
+    }
+
+    .rects {
+        width: 10rem;
+        height: 8rem;
+        transform: translateY(120px);
+    }
+
+    .rects h1 {
+        font-size: 2rem;
+    }
+
+    .purchase h1 {
+        transform: translateY(50px);
+    }
+
+    .purchase p {
+        transform: translateY(50px);
+    }
+
+    .section-3 {
+        height: inherit;
+        padding: 10vmin !important;
+    }
+
+    .col-md-12 h1 {
+        padding: 6vmin 4vmin;
+    }
+
+    .col-md-6 p {
+        text-align: center !important;
+    }
+
+    .desktop {
+        position: relative;
+        top: -120px;
+    }
+}

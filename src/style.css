@@ -1,6 +1,7 @@
 .navbar-nav {
     margin-left: auto;
 }
+
 .cards {
     display: inline-block;
 }
@@ -219,6 +220,27 @@ header {
     text-align: center;
     font-family: var(--Patua);
 }
+.rects{
+    position: relative;
+    z-index: 1;
+    background: white;
+    width: 17em;
+    height: 12em;
+    padding-top: 3.5vmin;
+    margin: 1rem;
+    border-radius: -1em;
+    box-shadow: 1px 2px 50px 0px rgba(255, 0, 0, 0.349);
+    margin-top: -15vmin;
+}
+.rects h1{
+    text-align: center;
+    font-size: 5rem;
+    color: tomato;
+}
+.rects p{
+    text-align: center;
+    font-family: var(--Patua);
+}
 
 .purchase h1 {
     padding-top: 15vmin;
@@ -234,7 +256,7 @@ header {
 
 
 
-.card1{
+.card1 {
     width: 400px;
     padding: 20px;
 
@@ -256,10 +278,11 @@ header {
     border-top-right-radius: 170px;
     border-top-left-radius: 170px;
 }
-.pricing h1{
+
+.pricing h1 {
     font-size: 10vmin;
     padding: 1em 0.5em;
-    
+
 }
 
 /* section 3*/
@@ -269,12 +292,14 @@ header {
     margin-top: 15vmin;
     background: linear-gradient(#dd2476, #ff512f);
 }
-.col-md-12 h1{
+
+.col-md-12 h1 {
     padding: 2em 0 0.5em 0;
     color: whitesmoke;
     font-size: 6vmin;
 }
-.col-md-12 p{
+
+.col-md-12 p {
     padding: 0 4em;
     padding-bottom: 2em;
     color: lightgray;
@@ -282,7 +307,7 @@ header {
 
 }
 
-.desktop1{
+.desktop1 {
     background: white;
     display: inline-block;
     border-radius: 3em;
@@ -290,52 +315,105 @@ header {
     margin: 1em;
     float: right;
 }
-.desktop{
+
+.desktop {
     background: white;
     display: inline-block;
     border-radius: 3em;
     padding: 2vmin 4.5vmin;
     margin: 1em;
-    float:left;
+    float: left;
 }
+
 .desktop1 h3 {
     font-size: 4vmin;
     padding-left: 3vmin;
 }
-.desktop1 p{
+
+.desktop1 p {
     font-size: 2vmin;
 }
+
 .desktop h3 {
     font-size: 4vmin;
     padding-left: 3vmin;
 }
-.desktop p{
+
+.desktop p {
     font-size: 2vmin;
 }
 
 /* section 4 */
 
-.container h1{
-  font-size: 6vmin;
-  padding-top: 14vmin;
+.container h1 {
+    font-size: 6vmin;
+    padding-top: 14vmin;
 }
+
 .team {
     padding: 10vmin 4vmin;
 }
-.card{
+
+.card {
     width: 22em;
     margin-top: 10vmin;
 }
-.card-text{
+
+.card-text {
     padding: 0.5em;
 }
-.card-body a{
+
+.card-body a {
     font-size: 1.5em;
 }
-.carousel-item{
+
+.carousel-item {
     padding-left: 3rem;
 }
-.border-radius{
+
+.border-radius {
     border-radius: 340px;
     width: 60%;
+}
+
+/*Footer*/
+
+footer {
+    background: rgba(0, 0, 0, 0.815);
+    overflow-x: hidden;
+    padding: 14vmin 18vmin;
+}
+
+.col-md-5 p {
+    color: lightgray;
+}
+
+.input-group-text {
+    padding-bottom: 2vmin;
+    border-radius: 9px;
+    background: linear-gradient(#dd2476, #ff512f);
+    border: none;
+}
+
+.form-control {
+    padding-bottom: 1vmin;
+    border: none !important;
+}
+
+.col-md-2 p {
+    color: #ddd;
+}
+
+.col-md-5 span {
+    color: #ff512f;
+}
+
+.input-group ::placeholder {
+    color: lightgrey;
+}
+.column i{
+    color: #ff512f;
+}
+.column i+i{
+    padding: 0 0.5em;
 }
